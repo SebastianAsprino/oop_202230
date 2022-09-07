@@ -65,7 +65,7 @@ class TestInstallPackages(unittest.TestCase):
         """
 
         import sys
-    
+         
         version = str(sys.version_info.major) + '.' + \
             str(sys.version_info.minor) + '.' + \
                 str(sys.version_info.micro)
@@ -74,4 +74,3 @@ class TestInstallPackages(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
