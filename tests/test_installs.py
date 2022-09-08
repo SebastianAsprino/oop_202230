@@ -1,3 +1,4 @@
+# %%
 import unittest
 
 class TestInstallPackages(unittest.TestCase):
@@ -74,3 +75,5 @@ class TestInstallPackages(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+# %%
